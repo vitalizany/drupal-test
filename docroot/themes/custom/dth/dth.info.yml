@@ -1,0 +1,11 @@
+name: Just simple Drupal test theme
+type: theme
+core_version_requirement: ^8 || ^9
+libraries:
+  - dth/global
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

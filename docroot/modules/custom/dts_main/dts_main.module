@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function dts_main_theme($existing, $type, $theme, $path) {
+  return [
+    'dts_custom_block_template' => [
+      'variables' => [
+        'heading' => NULL,
+        'copy' => NULL
+      ],
+    ],
+  ];
+}

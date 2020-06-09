@@ -1,0 +1,7 @@
+
+##ddev-generated: Automatically generated drush.yml file.
+# ddev manages this file and may delete or overwrite the file unless this comment is removed.
+# Remove the comment if you don't want ddev to manage this file.'
+
+options:
+  uri: "http://drupal-test.ddev.site"

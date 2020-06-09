@@ -1,0 +1,14 @@
+uuid: 57184c9c-8e83-4c85-94cb-3eee2c2e7b7b
+name: 'drupal test'
+mail: dd@test.test
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,18 @@
+Another way to update htaccess
+
+"file-mapping": {
+    "[web-root]/.htaccess": {
+        "append": "patches/htaccess-ssl-redirect.txt"
+    }
+}
+
+
+<IfModule mod_rewrite.c>
+
+  RewriteCond %{HTTPS} !=on
+  # This checks to make sure the connection is not already HTTPS
+
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+  # This rule will redirect users from their original location, to the same location but using HTTPS.
+
+</IfModule>
